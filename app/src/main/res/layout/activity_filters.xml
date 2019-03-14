@@ -1,0 +1,114 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiltersActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:id="@+id/rootFiltersLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <CheckBox
+                android:id="@+id/checkboxArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply Filter on Area"
+                android:checked="false"/>
+            <Spinner
+                android:id="@+id/spinnerType"
+                android:tooltipText="Select Area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="1dp"
+                android:orientation="vertical"
+                android:background="@color/cardview_dark_background"/>
+            <CheckBox
+                android:id="@+id/checkboxDeliveryBoy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply Filter on Delivery Boy"
+                android:checked="false" />
+            <Spinner
+                android:id="@+id/spinnerDeliveryBoy"
+                android:tooltipText="Select Delivery Valet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="1dp"
+                android:orientation="vertical"
+                android:background="@color/cardview_dark_background"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hight to low"
+                    android:id="@+id/highToLow"/>
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Low to High"
+                    android:id="@+id/lowToHigh"/>
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/checkboxMorning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Morning"
+                android:checked="true"/>
+            <CheckBox
+                android:id="@+id/checkboxEvening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evening"
+                android:checked="true"/>
+
+            <Button android:id="@+id/btn_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:onClick="apply"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="40dp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

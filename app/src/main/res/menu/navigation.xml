@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/list_of_all_customers"
+        android:icon="@drawable/customers_pic"
+        android:title="Custmers" />
+
+    <item
+        android:id="@+id/list_of_all_delivery_area"
+        android:icon="@drawable/delivery_pic"
+        android:title="Delivery Boys" />
+
+    <item
+        android:id="@+id/navigation_notifications2"
+        android:icon="@drawable/areas_pic"
+        android:title="Areas" />
+    <item
+        android:id="@+id/list_of_all_delivery_boys"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="Statistics" />
+    <item
+        android:id="@+id/Logout"
+        android:icon="@drawable/ic_settings_power_black_24dp"
+        android:title="Logout" />
+
+</menu>

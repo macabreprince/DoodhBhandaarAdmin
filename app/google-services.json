@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "527099760671",
+    "firebase_url": "https://doodhbhandaar-13233.firebaseio.com",
+    "project_id": "doodhbhandaar-13233",
+    "storage_bucket": "doodhbhandaar-13233.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527099760671:android:0cb46ab222de7587",
+        "android_client_info": {
+          "package_name": "com.doodhbhandaar.dbadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527099760671-3ijjbq659lbv80aa14ui2btij5r99jm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doodhbhandaar.dbadmin",
+            "certificate_hash": "df6a61538ecba383827197a1e1cc8476cdf6669c"
+          }
+        },
+        {
+          "client_id": "527099760671-86qhiceolnfnpd7oman13trru2jjh336.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doodhbhandaar.dbadmin",
+            "certificate_hash": "69e6e8d5a92ab7041c76019fd4b177a876844c9d"
+          }
+        },
+        {
+          "client_id": "527099760671-lij9oup5oo3kkebqttiekklfo9gg64hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB645J9s_Sgnr-BWrPpy88ALyP5GtCrTks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527099760671-lij9oup5oo3kkebqttiekklfo9gg64hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

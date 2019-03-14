@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">527099760671-lij9oup5oo3kkebqttiekklfo9gg64hj.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://doodhbhandaar-13233.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">527099760671</string>
+    <string name="google_api_key" translatable="false">AIzaSyB645J9s_Sgnr-BWrPpy88ALyP5GtCrTks</string>
+    <string name="google_app_id" translatable="false">1:527099760671:android:0cb46ab222de7587</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB645J9s_Sgnr-BWrPpy88ALyP5GtCrTks</string>
+    <string name="google_storage_bucket" translatable="false">doodhbhandaar-13233.appspot.com</string>
+    <string name="project_id" translatable="false">doodhbhandaar-13233</string>
+</resources>
